@@ -1,8 +1,8 @@
 package main
 
+import com.google.gson.{Gson, JsonArray}
+import main.Album._
 import org.scalatest.FunSuite
-import Album._
-import com.google.gson.{Gson, JsonArray, JsonElement, JsonObject}
 
 class AlbumSuite extends FunSuite {
 
