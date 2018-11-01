@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\박중현\Desktop\untitled\src\main\scala\main\Main.scala:24:10: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case e => bw.write(e.toString)[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

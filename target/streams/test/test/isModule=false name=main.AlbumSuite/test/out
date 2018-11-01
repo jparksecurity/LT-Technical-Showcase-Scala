@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAlbumSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test FetchAlbum function with illegal argument(out of the range)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test FetchAlbum function with legal argument[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test ParseJson function with legal argument[0m[0m
