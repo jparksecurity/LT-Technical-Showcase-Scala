@@ -1,28 +1,28 @@
 [info] Updating ...
-[debug] :: resolving dependencies :: lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1
+[debug] :: resolving dependencies :: default#lt-technical-showcase-scala_2.12;0.1
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7
 [debug] 	found org.scala-lang#scala-library;2.12.7 in sbt-chain
 [debug] 	[2.12.7] org.scala-lang#scala-library;2.12.7
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5
 [debug] 	found org.scalatest#scalatest_2.12;3.0.5 in sbt-chain
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -208,21 +208,21 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.12;3.0.5->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
 [debug] == resolving dependencies org.scalatest#scalatest_2.12;3.0.5->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.12;3.0.5->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 in sbt-chain
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -234,17 +234,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.12;2.4.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.12;2.4.1
 [debug] 	found org.scalaj#scalaj-http_2.12;2.4.1 in sbt-chain
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -256,67 +256,36 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson;2.8.5 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.gson#gson;2.8.5 {compile=[default(compile)]}
-[debug] 		tried C:\Users\박중현\.ivy2\local\com.google.code.gson\gson\2.8.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.google.code.gson#gson;2.8.5
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
-[debug] 	public: found md file for com.google.code.gson#gson;2.8.5
-[debug] 		=> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom (2.8.5)
-[debug] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
-[debug] 	[SUCCESSFUL ] com.google.code.gson#gson;2.8.5!gson.pom(pom.original) (99ms)
-[debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson-parent;2.8.5 {}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.gson#gson-parent;2.8.5 {}
-[debug] 		tried C:\Users\박중현\.ivy2\local\com.google.code.gson\gson-parent\2.8.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.google.code.gson#gson-parent;2.8.5
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
-[debug] 	public: found md file for com.google.code.gson#gson-parent;2.8.5
-[debug] 		=> https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom (2.8.5)
-[debug] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
-[debug] 	[SUCCESSFUL ] com.google.code.gson#gson-parent;2.8.5!gson-parent.pom(pom.original) (120ms)
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\박중현\.ivy2\local\com.google.code.gson\gson-parent\2.8.5\jars\gson-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.jar
-[debug] 		tried C:\Users\박중현\.sbt\preloaded\com.google.code.gson\gson-parent\2.8.5\jars\gson-parent.jar
-[debug] 		tried file:/C:/Users/박중현/.sbt/preloaded/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.jar
-[debug] 		tried C:\Users\박중현\.ivy2\local\com.google.code.gson\gson\2.8.5\jars\gson.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
-[debug] 	found com.google.code.gson#gson;2.8.5 in public
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.8.5
+[debug] 	found com.google.code.gson#gson;2.8.5 in sbt-chain
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [runtime]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [runtime]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -490,20 +459,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -515,16 +484,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -536,40 +505,40 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [test]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [runtime]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [test]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [runtime]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -749,22 +718,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -776,18 +745,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -799,27 +768,27 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [provided]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [optional]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile-internal]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile-internal]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -828,10 +797,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -840,8 +809,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1027,14 +996,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1043,8 +1012,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1056,10 +1025,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1068,8 +1037,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1081,10 +1050,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1093,16 +1062,16 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [optional]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [provided]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [optional]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [runtime-internal]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [runtime]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [runtime-internal]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [runtime]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1111,10 +1080,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1123,8 +1092,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1310,14 +1279,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1326,8 +1295,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1339,10 +1308,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1351,8 +1320,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1364,10 +1333,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1376,16 +1345,16 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [optional]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [test-internal]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [test]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [runtime]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [test-internal]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [test]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [runtime]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1398,10 +1367,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1414,8 +1383,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1613,14 +1582,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1633,8 +1602,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1646,10 +1615,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1662,8 +1631,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1675,10 +1644,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.4.1->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
@@ -1691,25 +1660,25 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [optional]
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [provided]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->com.google.code.gson#gson;2.8.5 [compile->master]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [optional]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [plugin]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [plugin]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [pom]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 [scala-tool]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default]
+[debug] == resolving dependencies for default#lt-technical-showcase-scala_2.12;0.1 [scala-tool]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7
 [debug] 	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
@@ -1799,12 +1768,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->master(*)]
@@ -1826,200 +1795,35 @@
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->compile(*)]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->default]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->default]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
+[debug] == resolving dependencies default#lt-technical-showcase-scala_2.12;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle)
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(bundle)
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle)
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.4.1!scalaj-http_2.12.jar
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\박중현\.ivy2
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (114ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\박중현\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (126ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (107ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (138ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (116ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (170ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (143ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (195ms)
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/박중현/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (140ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (147ms)
-[debug] 	default cache: C:\Users\박중현\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
-[info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.8.5!gson.jar (337ms)
-[debug] :: resolution report :: resolve 2722ms :: artifacts dl 402ms
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 compile produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-compile.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 runtime produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-runtime.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 test produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-test.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 provided produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-provided.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 optional produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-optional.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 compile-internal produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-compile-internal.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 runtime-internal produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-runtime-internal.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 test-internal produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-test-internal.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 plugin produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-plugin.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 pom produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-pom.xml
-[debug] 	report for lt-technical-showcase-scala#lt-technical-showcase-scala_2.12;0.1 scala-tool produced in C:\Users\박중현\Desktop\untitled\target\scala-2.12\resolution-cache\reports\lt-technical-showcase-scala-lt-technical-showcase-scala_2.12-scala-tool.xml
-[debug] 	resolve done (2722ms resolve - 402ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.5!gson.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
+[debug] :: resolution report :: resolve 231ms :: artifacts dl 10ms
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 compile produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-compile.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 runtime produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-runtime.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 test produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-test.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 provided produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-provided.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 optional produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-optional.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 compile-internal produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-compile-internal.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 runtime-internal produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-runtime-internal.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 test-internal produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-test-internal.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 plugin produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-plugin.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 pom produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-pom.xml
+[debug] 	report for default#lt-technical-showcase-scala_2.12;0.1 scala-tool produced in C:\Users\박중현\Desktop\LT-Technical-Showcase-Scala\target\scala-2.12\resolution-cache\reports\default-lt-technical-showcase-scala_2.12-scala-tool.xml
+[debug] 	resolve done (231ms resolve - 10ms download)
 [info] Done updating.

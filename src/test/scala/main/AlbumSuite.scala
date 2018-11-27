@@ -1,6 +1,6 @@
 package main
 
-import com.google.gson.{Gson, JsonArray}
+import com.google.gson.{Gson, JsonArray, JsonObject}
 import main.Album._
 import org.scalatest.FunSuite
 
@@ -14,6 +14,12 @@ class AlbumSuite extends FunSuite {
 
   test("Test FetchAlbum function with legal argument") {
     assert(FetchAlbum(1).get(0).getAsJsonObject.get("id").getAsInt === 1)
+  }
+
+  test("Test ParseJson function with null input") {
+    intercept[IllegalArgumentException] {
+      ParseJson(new JsonArray())
+    }
   }
 
   test("Test ParseJson function with legal argument") {

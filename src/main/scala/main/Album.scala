@@ -3,6 +3,8 @@ package main
 import com.google.gson.{Gson, JsonArray, JsonElement, JsonObject}
 import scalaj.http._
 
+// import scala.util.Try
+
 object Album {
 
   def FetchAlbum(id: Int): JsonArray = {
@@ -18,8 +20,16 @@ object Album {
   }
 
   def ParseJson(data: JsonArray): JsonArray = {
+
+//    case class AlbumClass(id: Int, title: String)
+
+    require(data.size() != 0, "Return Value is NULL.")
+
     val it = data.iterator()
     val parsedData = new JsonArray()
+
+//    val objects = (0 until data.size()).map(i => data.getAsJsonObject)
+//    val albums = objects.map(s => Try(AlbumClass(s.get("id").getAsInt, s.get("title").getAsString)))
 
     def ParseElement(ele: JsonElement):JsonObject ={
       val parsed = new JsonObject()
