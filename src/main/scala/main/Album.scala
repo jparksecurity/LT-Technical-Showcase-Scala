@@ -3,7 +3,7 @@ package main
 import com.google.gson.{Gson, JsonArray, JsonElement, JsonObject}
 import scalaj.http._
 
-// import scala.util.Try
+// import scala.util.{Try, Success, Failure}
 
 object Album {
 
@@ -30,6 +30,10 @@ object Album {
 
 //    val objects = (0 until data.size()).map(i => data.getAsJsonObject)
 //    val albums = objects.map(s => Try(AlbumClass(s.get("id").getAsInt, s.get("title").getAsString)))
+//    albums.foreach {
+//      case Success(album) => println(album.toString)
+//      case Failure(exception) => Console.err.println(s"Error: $exception")
+//    }
 
     def ParseElement(ele: JsonElement):JsonObject ={
       val parsed = new JsonObject()
