@@ -28,7 +28,7 @@ object Album {
     val it = data.iterator()
     val parsedData = new JsonArray()
 
-//    val objects = (0 until data.size()).map(i => data.getAsJsonObject)
+//    val objects = (0 until data.size()).map(i => data.get(i).getAsJsonObject)
 //    val albums = objects.map(s => Try(AlbumClass(s.get("id").getAsInt, s.get("title").getAsString)))
 //    albums.foreach {
 //      case Success(album) => println(album.toString)
